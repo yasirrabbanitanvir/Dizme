@@ -1,6 +1,6 @@
-import { Box, Container, Grid, Typography } from '@mui/material';
-import React from 'react'
-import { useStyles } from '../Style'
+import { Box, Container, Grid, Typography, TextField, Button } from '@mui/material';
+import React from 'react';
+import { useStyles } from '../Style';
 
 const Newsletter = () => {
   const classes = useStyles();
@@ -20,18 +20,28 @@ const Newsletter = () => {
                     Get My Newsletter
                   </Typography>
                   <Typography variant="h5" component="p" className={classes.newslatter_text_area_description}>
-                    Get latest news, updates, tips and trics in your inbox
+                    Get latest news, updates, tips and tricks in your inbox
                   </Typography>
                 </Box>
               </Grid>
               <Grid item xs={12} md={6}>
+                <TextField
+                  variant="outlined"
+                  fullWidth
+                  label="Email"
+                  type="email"
+                  className={classes.email_input}
+                />
+                <Button variant="contained" color="primary" className={classes.subscribe_button}>
+                  Subscribe
+                </Button>
               </Grid>
             </Grid>
           </Box>
         </Box>
       </Container>
     </Box>
-  )
-}
+  );
+};
 
-export default Newsletter
+export default Newsletter;

@@ -10,9 +10,8 @@ import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTops from './components/ScrollToTops';
-// import GoogleMaps from './components/GoogleMap';
-// import Newsletter from './components/Newsletter';
-// import Partners from './components/Partners';
+import Newsletter from './components/Newsletter';
+import Partners from './components/Partners';
 
 function App() {
   return (
@@ -25,7 +24,9 @@ function App() {
       <Skills />
       <Services />
       <Testimonials />
+      <Partners/>
       <Blog />
+      <Newsletter/>
       <Contact />
       <Footer />
       <ScrollToTops />
