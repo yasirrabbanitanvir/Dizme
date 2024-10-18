@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26px" height="100%" viewBox="0 0 247 390" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linecap: round; stroke-miterlimit: 1.5;">
+                    <path
+                    id="wheel"
+                      style="fill:none;stroke:#000;stroke-width:20px;"
+                      d="M123.359 79.775v72.843"
+                    ></path>
+                    <path
+                    id="mouse"
+                      style="fill:none;stroke:#000;stroke-width:20px;"
+                      d="M236.717 123.359C236.717 60.794 185.923 10 123.359 10 60.794 10 10 60.794 10 123.359v143.237c0 62.565 50.794 113.359 113.359 113.359 62.564 0 113.358-50.794 113.358-113.359V123.359z"
+                    ></path>
+                  </svg>
