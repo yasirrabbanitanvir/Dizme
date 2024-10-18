@@ -9,7 +9,7 @@ const Footer = () => {
       <Container maxWidth="lg">
         <Box className={classes.footer_box}>
           <Box className={classes.footer_box_left}>
-            Copyright © 2022 <Link href="#">TechPhi IT</Link>. All Rights Reserved by Codelayers.
+            Copyright © 2024 <Link href="#">TechPhi IT</Link>. All Rights Reserved by Codelayers.
           </Box>
           <Box className={classes.footer_box_right}>
             <Link href="#">Terms & Condition</Link>
